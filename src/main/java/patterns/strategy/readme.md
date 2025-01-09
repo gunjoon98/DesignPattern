@@ -1,5 +1,5 @@
 ### strategy pattern
-전략 패턴은 알고리즘군을 정의하고 캡슐화한 행동 패턴
+알고리즘군을 정의하고 캡슐화한 행동 패턴
 
 ![solution](https://github.com/user-attachments/assets/e4cce936-e6f3-4c11-94a4-ed0cd5909dc3)
 
