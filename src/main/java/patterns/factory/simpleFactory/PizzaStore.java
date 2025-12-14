@@ -7,7 +7,7 @@ public class PizzaStore {
         this.simplePizzaFactory = simplePizzaFactory;
     }
 
-    public Pizza createPizza(String type) {
+    public Pizza orderPizza(String type) {
         Pizza pizza = simplePizzaFactory.createPizza(type);
         pizza.prepare();
         pizza.bake();
