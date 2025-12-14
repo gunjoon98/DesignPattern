@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factory.simpleFactory;
 
 public class CheesePizza implements Pizza {
 

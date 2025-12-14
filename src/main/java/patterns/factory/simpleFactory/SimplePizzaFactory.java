@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factory.simpleFactory;
 
 public class SimplePizzaFactory {
     Pizza createPizza(String type) {
@@ -6,7 +6,7 @@ public class SimplePizzaFactory {
         if(type.equals("cheese")) {
             pizza = new CheesePizza();
         } else if(type.equals("veggie")) {
-            pizza = new VegggiePizza();
+            pizza = new VeggiePizza();
         }
         return pizza;
     }
